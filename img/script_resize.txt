@@ -1,0 +1,3 @@
+convert '*.jpg[200x]' resized%03d.png
+
+convert '*.*[200x200]' resized%03d.jpg

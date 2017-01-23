@@ -1,0 +1,230 @@
+@keyframes circle_f {
+    50% {
+        border-color: #262626;
+    }
+}
+
+#menu {
+    color: #D9D9D9;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+.navigate {
+    padding-right: 10px;
+    padding-left: 10px;
+    border-bottom: 4px solid transparent;
+}
+
+.navigate:hover {
+    border-bottom-color: #fff;
+    background-color: #616161;
+}
+
+#selected_page {
+    background-color: #383838;
+}
+
+#logo {
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+    padding-bottom: 3px;
+    padding-left: 250px;
+}
+
+#first {
+    padding-left: 20px;
+}
+
+section#main {
+    width: 100%;
+    margin: auto;
+}
+
+#index_first {
+    background-image: url("../img/index/horses.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+    height: 700px;
+}
+
+#loja_c {
+    padding-top: 70px;
+    color: #fff;
+    font-size: 6em;
+    font-weight: bolder;
+    border-bottom: 4px solid black;
+}
+
+#index_novidades, #index_texto {
+    padding-top: 90px;
+    width: 800px;
+    height: 300px;
+    text-align: center;
+    background-image: url("../img/index/bf.jpg");
+    color: #fff;
+    font-size: 1.9em;
+    font-weight: lighter;
+    border-top: 4px solid #121212;
+    border-right: 4px solid #121212;
+}
+
+#index_texto {
+    background-image: url("../img/index/violao_madeira.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 300px;
+}
+
+.facebook :link, .facebook:visited {
+    color: lightblue;
+}
+
+h2.title {
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.6em;
+}
+
+#f_direitos_tc {
+    color: #fff;
+    font-size: 1.1em;
+    padding-top: 20px;
+    border-top: 4px solid #121212;
+}
+
+.main_about {
+    width: 800px;
+}
+
+.about_cell {
+    width: 200px;
+    height: 200px;
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+    padding: 5px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.about_cell2 {
+    padding: 30px;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.about_cell3 {
+    padding: 30px;
+}
+
+#about_content {
+    background-color: #fff;
+    box-shadow: 0px 1px 7px 1px gray;
+    margin: 20px auto 40px auto;
+}
+
+.about_img_redonda {
+    border-radius: 100%;
+    width: 102px;
+    height: 102px;
+    background-color: #fff;
+    margin: 10px auto;
+    padding: 2px;
+}
+
+#clock_logo {
+    background-image: url("../img/about/clock_.png");
+    background-size: 100px 105px;
+    background-repeat: no-repeat;
+}
+
+#phone_logo {
+    background-image: url("../img/about/phone_.png");
+    background-size: 100px 105px;
+    background-repeat: no-repeat;
+}
+
+#adress_logo {
+    background-image: url("../img/about/endereco_.png");
+    background-size: 100px 105px;
+    background-repeat: no-repeat;
+}
+
+#map {
+    border: 1px solid #ddd;
+    height: 300px;
+    width: 735px;
+}
+
+#map img {
+    height: 300px;
+    width: 735px;
+}
+
+.group-mini-box {
+    width: 800px;
+    margin: 20px auto 40px auto;
+    padding: 2px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+}
+
+.mini-box {
+    display: table;
+    margin: 30px 33px;
+    width: 200px;
+    box-shadow: 0px 1px 7px 1px gray;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #404040;
+}
+
+.mini-box:first-child {
+    margin-top: 3px;
+}
+
+.mini-box .photo {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 200px;
+    width: 100%;
+    background: #141414;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.mini-box .photo h3 {
+    font-size: 1.6em;
+    margin: 0px;
+    padding-top: 45%;
+    font-family: 'Josefin Slab', serif;
+    word-spacing: 1px;
+    font-weight: bolder;
+}
+
+.mini-box h2 {
+    display: block;
+    margin: 0px;
+    padding: 8px 0px;
+    font-size: 1.2em;
+}
+
+.mini-box ul {
+    margin: 0px;
+    padding: 5px 0px;
+    display: block;
+    list-style-type: none;
+    font-size: 0.9em;
+    border-top: 1px solid #545454;
+}
+
+img {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.column-group-mini-box {
+    float: left;
+}

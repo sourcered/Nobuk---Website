@@ -1,0 +1,97 @@
+header {
+    display: table;
+}
+
+footer {
+    display: table;
+}
+
+#menu {
+    display: table-row;
+}
+
+.navigate {
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+#first {
+    display: table-cell;
+}
+
+#logo {
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+#end {
+    display: table-cell;
+    width: 100%;
+}
+
+section#main {
+    display: table;
+}
+
+#index_first {
+    display: table-row;
+}
+
+#loja_c {
+    display: table-cell;
+    text-align: center;
+}
+
+#index_second {
+    display: table-row;
+}
+
+#index_novidades {
+    display: table-cell;
+}
+
+#index_texto {
+    display: table-cell;
+}
+
+#t_i_t {
+    display: table;
+}
+
+#t_i_r {
+    display: table-row;
+    width: 100%;
+}
+
+#f_direitos_tr {
+    display: table-row;
+}
+
+#f_direitos_tc {
+    display: table-cell;
+    text-align: center;
+}
+
+.main_about {
+    display: table;
+}
+
+.about_row {
+    display: table-row;
+}
+
+.about_cell {
+    display: table-cell;
+}
+
+.about_cell2 {
+    display: table-cell;
+}
+
+#about_content {
+    display: table;
+}
+
+#about_content_row {
+    display: table-row;
+}
