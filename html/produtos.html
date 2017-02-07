@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>
-        Nobuk - BOTINAS
+        Nobuk - Marcas
     </title>
     <link rel="stylesheet" href="../css/css.css">
     <link rel="stylesheet" href="../css/tables.css">
@@ -22,13 +22,13 @@
                 <a href="../index.html">HOME</a>
             </div>
             <div class="navigate">
-                <a href="https://www.facebook.com/botinasnobuk/" target="_blank">PRODUTOS</a>
-            </div>
-            <div class="navigate">
                 <a href="marcas.html">MARCAS</a>
             </div>
             <div id="selected_page" class="navigate">
-              <a href="botina.html">BOTINA</a>
+                <a href="produtos.html">PRODUTOS</a>
+            </div>
+            <div class="navigate">
+              <a href="https://www.facebook.com/botinasnobuk/" target="_blank">FACEBOOK</a>
             </div>
             <div class="navigate">
                 <a href="about.html">SOBRE</a>
@@ -42,49 +42,55 @@
 
     <section class="group-mini-box">
         <section class="column-group-mini-box">
+
             <div class="column-mini-box">
 
-              <div class="mini-box">
-                  <div class="photo">
-                  </div>
-                  <h2>NOBUK</h2>
-                  <ul>
-                      <li>Botina sola de Pneu</li>
-                      <li>39 - 42</li>
-                  </ul>
-              </div>
+                <div id="first1">
 
-            </div>
-        </section>
-        <section class="column-group-mini-box">
-            <div class="column-mini-box">
-
-              <div class="mini-box">
-                  <div class="photo">
-                  </div>
-                  <h2>Apache</h2>
-                  <ul>
-                      <li>Camisa</li>
-                  </ul>
-              </div>
-
-            </div>
-        </section>
-        <section class="column-group-mini-box">
-            <div class="column-mini-box">
-
-                <div class="mini-box">
-                    <div class="photo">
-                    </div>
-                    <h2>HUNGLER</h2>
-                    <ul>
-                        <li>Sola de Latex</li>
-                    </ul>
                 </div>
 
             </div>
         </section>
+        <section class="column-group-mini-box">
+            <div class="column-mini-box">
+
+              <div id="second1">
+
+              </div>
+
+
+            </div>
+        </section>
+        <section class="column-group-mini-box">
+            <div class="column-mini-box">
+
+              <div id="third1">
+
+              </div>
+
+
+            </div>
+        </section>
     </section>
+
+    <script type="text/javascript">
+        var makeColum = function(indexColumn, minR, maxR)
+        {
+          const miniboxBegin =  "<div class=\"mini-box\"> <div class=\"photo\"> <img src=\"";
+          const miniboxEnd   =  "\" alt=\"Produto\" width=\"200px\" height=\"200px\" /></div><h2></h2><ul><li></li></ul></div>";
+            let elementID = document.getElementById(indexColumn);
+            let tmp;
+            for(i = minR; i < maxR; i++)
+            {
+                tmp = miniboxBegin + "../img/img/" + i + ".jpg" + miniboxEnd;
+                elementID.innerHTML += tmp;
+            }
+        }
+        // var dot = DotDoc();
+        makeColum("first1",0,45);
+        makeColum("second1",45, 90);
+        makeColum("third1",90, 135);
+    </script>
 
     <footer>
         <div id="f_direitos_tr">
